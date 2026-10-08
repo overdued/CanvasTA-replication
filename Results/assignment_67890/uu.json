@@ -1,0 +1,74 @@
+{
+  "student_name": "uu",
+  "user_id": null,
+  "assignment_id": 67890,
+  "run_id": "20260916_110315",
+  "files": [
+    "uu_225085000.pdf"
+  ],
+  "student_source_files": [
+    "student_submissions/assignment_67890/uu_225085000.pdf"
+  ],
+  "parsed_source_files": [
+    "student_submissions/assignment_67890/uu_225085000.pdf"
+  ],
+  "extract_route": "vision",
+  "student_answer_text": "[文件: uu_225085000.pdf | 提取方式: vision]\n===== 第1页 =====\n第1页\n\n香港中文大学（深圳）\nThe Chinese University of Hong Kong, Shenzhen\n\n研究生院\nThe Graduate School\n\n学号 Student I.D. No.\n275085000\n\n科目编号 AIE6001\nCourse Code:\n\n科目名称 Advanced Math of Artificial Intelligent\nCourse Title:\n\n座号 (if applicable):\n18\nSeat No.:\n\n答题规则\nINSTRUCTIONS TO CANDIDATES\n\n1. 在此答题纸需填写学生号、科目编号及名称，如有座号须填写。切勿填写姓名。\nFill in your Student I.D. Number, Course Code, Course Title and Seat Number (if applicable). Do not write your name.\n\n2. 须在每页上端写明题号。\nWrite down the question number at the top of each page.\n\n3. 所有补充答卷须写明题号，并夹系于本答卷内。\nRemember to write down question number on all supplementary answer sheets and fasten them to this answer book.\n\n4. 须在此答题纸下端校正，将题号依序排列填写。\nMark in the boxes below the question numbers following the order in which the questions have been answered.\n\n题号 Question No.\n\n分数 Marks\n\n8 10 50 0\n\n总分 Total\n\n43\n\n===== 第2页 =====\n题号: 1\n答案:\nE[X] = 5, E[Y] = 5, E[Z] = E[X + Y] = E[X] + E[Y] = 2.5 + 2.5 = 10, Var(X) = E[X^2] - E[X]^2 = \\frac{38}{3} - 5^2 = 35, Var(Y) = E[Y^2] - E[Y]^2 = 29 - 25 = 4, Var(Z) = Var(X + Y) = Var(X) + Var(Y) = 10 + 4 = 14, Cov(X, Z) = E[XZ] - E[X]E[Z] = E[X(X + Y)] = E[X^2] + E[XY] = E[X]Var(X) + Cov(X, Y) = 10, Cov(X, Y) = 0, Cov(X, Z) = 10.\n\n===== 第3页 =====\n题号: 2\n答案:\ndet(A - \\lambda I) = 0 \\text{ for } \\lambda_i \\text{ is eigenvalue of } A\n\n===== 第4页 =====\n题号: 3\n答案:\nf(X_i; \\theta) = \\frac{1}{\\theta} (\\theta + 1)^{\\theta} x_i^{\\theta} \\\\ L(\\theta) = \\prod_{i=1}^{n} (\\theta + 1) x_i^{\\theta} \\\\ l(\\theta) = n \\log(\\theta + 1) + \\theta \\sum_{i=1}^{n} \\log x_i \\\\ \\text{suppose } S = \\sum_{i=1}^{n} \\log x_i \\\\ \\frac{\\partial l(\\theta)}{\\partial \\theta} = \\frac{n}{\\theta + 1} + \\sum_{i=1}^{n} \\log x_i \\\\ \\frac{\\partial l(\\theta)}{\\partial \\theta} = 0 \\\\ \\theta = -\\frac{n}{S} - 1 \\\\ \\theta = -\\frac{\\sum_{i=1}^{n} \\log x_i}{n - 1}\n\n===== 第5页 =====\n题号: 4\n答案:\nH(X) = -\\sum P(X=x) \\log P(X=x) = -\\left(0.2 \\log 0.2 + 0.2 \\log 0.2 + 0.2 \\log 0.2 + 0.2 \\log 0.2 + 0.2 \\log 0.2\right) = -\\log 0.2 = 1 \text{ bit}\n\n题号: 4\n答案:\nH(Y) = -\\sum P(Y=y) \\log P(Y=y) = -\\left(0.2 \\log 0.2 + 0.2 \\log 0.2 + 0.2 \\log 0.2 + 0.2 \\log 0.2 + 0.2 \\log 0.2\right) = -\\log 0.2 = 1 \text{ bit}\n\n题号: 4\n答案:\nH(X,Y) = -\\sum P(X,Y) \\log P(X,Y) = -\\left(5 \\log 0.04 + 0 \\log 0 + 0 \\log 0 + 0 \\log 0 + 0 \\log 0\right) = -5 \\log 0.04 = 7.32193\n\n===== 第6页 =====\n题号: 5(i)\n答案:\nE_B = \\frac{2}{q_{B}} - \\frac{4}{q_{B}} \\cdot \\frac{1}{(1 - q_{B})} = \\frac{q_{B} - 0.8 \\cdot 0.2}{0.6} = \\frac{30}{17}\n\n===== 第7页 =====\n题号: 6\n答案:\n$\\lim_{a \\to 1} D_{\\alpha, \\beta} = \\{ -\\frac{\\log a}{\\log b}, \\frac{\\log a}{\\log n}, 0, 0, 0 \\} = \\{ 1, 0, 0, \\ldots, 0 \\}$",
+  "grading": {
+    "total_score": 43,
+    "items": [
+      {
+        "question_no": "1",
+        "score": 10,
+        "max_score": 20,
+        "standard_answer": "µX = E[X] = 5; µZ = E[Z] = 10; σ2X = Var(X) = 25/3; σ2Z = Var(Z) = 34/3; Cov(X, Z) = 25/3.",
+        "deduction_reason": "计算错误，部分步骤缺失。",
+        "comment": ""
+      },
+      {
+        "question_no": "2",
+        "score": 5,
+        "max_score": 20,
+        "standard_answer": "det(A - λI) = 0 for λ_i is eigenvalue of A; (λ−1, x) is an eigenpair of A−1.",
+        "deduction_reason": "缺少完整证明，步骤不够详细。",
+        "comment": ""
+      },
+      {
+        "question_no": "3",
+        "score": 10,
+        "max_score": 20,
+        "standard_answer": "MLE: θ̂ = -1 - (1/n) Σ ln(Xi).",
+        "deduction_reason": "推导过程不完整，部分公式错误。",
+        "comment": ""
+      },
+      {
+        "question_no": "4",
+        "score": 5,
+        "max_score": 20,
+        "standard_answer": "H(X) = log2 5; H(Y) = log2 5; H(X, Y) = log2 25 - 8/25 - 6/25 log2 3.",
+        "deduction_reason": "计算错误，部分步骤缺失。",
+        "comment": ""
+      },
+      {
+        "question_no": "5",
+        "score": 5,
+        "max_score": 10,
+        "standard_answer": "Probability of getting wet is 0.",
+        "deduction_reason": "答案不完整，缺少详细推导。",
+        "comment": ""
+      },
+      {
+        "question_no": "6",
+        "score": 8,
+        "max_score": 10,
+        "standard_answer": "lim n→∞ DKL(ν∥D(α,β)n) = 0.",
+        "deduction_reason": "推导过程不够清晰，缺少部分细节。",
+        "comment": ""
+      }
+    ],
+    "overall_comment": ""
+  },
+  "approved": false,
+  "needs_retry": false,
+  "submission_source": "manual_local_files"
+}

@@ -1,0 +1,75 @@
+{
+  "student_name": "qq",
+  "user_id": null,
+  "assignment_id": 67890,
+  "run_id": "20260916_110315",
+  "files": [
+    "qq_225085002.pdf"
+  ],
+  "student_source_files": [
+    "student_submissions/assignment_67890/qq_225085002.pdf"
+  ],
+  "parsed_source_files": [
+    "student_submissions/assignment_67890/qq_225085002.pdf"
+  ],
+  "extract_route": "vision",
+  "student_answer_text": "[文件: qq_225085002.pdf | 提取方式: vision]\n===== 第1页 =====\n第1页\n\n在此答题纸适当位置填写学生号、科目编号及名称，如没有请勿填写。\n\n===== 第2页 =====\n题号: 1\n答案:\nX \\sim \\text{Uniform}[0,1] \\Rightarrow \\mu = \\frac{b+a}{2} = \\frac{0+1}{2} = \\frac{1}{2} \\quad \\sigma^2 = \\text{var}(X) = \\frac{(b-a)^2}{12} = \\frac{(1-0)^2}{12} = \\frac{1}{12} \\quad E(X) = E(X+Y) = E(X) + E(Y) = \\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3} \\quad \\sigma^2_{X+Y} = \\text{var}(X+Y) = \\text{var}(X) + \\text{var}(Y) = \\frac{1}{12} + \\frac{1}{6} = \\frac{1}{12} + \\frac{2}{12} = \\frac{3}{12} = \\frac{1}{4} \\quad \\text{Cov}(X,Z) = \\text{var}(Z) \\cdot \\text{var}(X) = \\frac{1}{3} \\quad -12\n\n题号: 2\n答案:\nA \\text{ is non-singular} \\Rightarrow \\text{det}(A) \\neq 0 \\Rightarrow A x = 2x \\quad A^T(Ax) = x = A^T(2x) \\Rightarrow A^T \\cdot 2x \\quad A x = 2\\lambda x \\Leftrightarrow (A - \\alpha I)x = 2\\lambda x \\quad \\text{so } A \\in \\mathbb{E} \\Rightarrow Ax = 2\\lambda x \\quad (A - \\alpha I)^2 = (2\\lambda^2 I - \\alpha I)x = 0 \\quad \\text{so } x \\text{ is the eigenvector of } A \\text{ and } (A - \\alpha I)^T \\text{ is different...\n\n===== 第3页 =====\n题号: 3\n答案:\nf(x,\\theta) = (\\theta + 1)x^{\\theta}\n\n===== 第4页 =====\n题号: 4\n答案:\nH(X|Y) = \\frac{1}{3}[-(\\frac{1}{3} \\log_2 \\frac{1}{3}) x + (-\\frac{1}{3} \\log_2 \\frac{1}{3}) x_2] - (\\frac{1}{3} \\log_2 \\frac{1}{3} + \\frac{1}{3} \\log_2 \\frac{1}{3}) - (-(\\frac{1}{3} \\log_2 \\frac{1}{3}) x_2 + \\frac{1}{3} \\log_2 \\frac{1}{3})]}\n\n===== 第5页 =====\n题号: 5(i)\n答案:\n从 office to bring to home. 从 home brings to office.\n\n题号: 5(ii)\n答案:\np_0 = 0.8p_0 + 0.2p_1\np_1 = 0.6p_1 + 0.2p_0 + 0.2p_2\np_2 = 0.8p_0 + 0.2p_1\np_3 = 0.6p_3 + 0.2p_4 + 0.2p_2\np_4 = 0.4p_4 + 0.2p_3\n\n===== 第6页 =====\n题号: 6\n答案:\n\\lim_{n \\to 0} 0 \\cdot \\frac{\\log 0}{h \\log \\alpha} = 0 \\cdot 0 = 0",
+  "grading": {
+    "total_score": 100.0,
+    "items": [
+      {
+        "question_no": "1",
+        "score": 10.0,
+        "max_score": 20,
+        "standard_answer": "µX = E[X] = 5; µZ = E[Z] = 10; σ2X = Var(X) = 25/3; σ2Z = Var(Z) = 34/3; Cov(X, Z) = 25/3",
+        "deduction_reason": "计算均值和方差时使用了错误的分布范围，导致结果不正确。",
+        "comment": ""
+      },
+      {
+        "question_no": "2",
+        "score": 5.0,
+        "max_score": 20,
+        "standard_answer": "证明过程正确，但缺少完整的推导和结论。",
+        "deduction_reason": "步骤不完整，缺少关键推导。",
+        "comment": ""
+      },
+      {
+        "question_no": "3",
+        "score": 10.0,
+        "max_score": 20,
+        "standard_answer": "推导最大似然估计的完整过程。",
+        "deduction_reason": "答案不完整，缺少推导过程。",
+        "comment": ""
+      },
+      {
+        "question_no": "4",
+        "score": 14.0,
+        "max_score": 20,
+        "standard_answer": "计算条件熵和互信息的完整过程。",
+        "deduction_reason": "答案不完整，缺少计算步骤。",
+        "comment": ""
+      },
+      {
+        "question_no": "5",
+        "score": 8.0,
+        "max_score": 10,
+        "standard_answer": "描述马尔可夫链的状态转移和概率。",
+        "deduction_reason": "描述不清晰，缺少完整的转移矩阵和概率计算。",
+        "comment": ""
+      },
+      {
+        "question_no": "6",
+        "score": 6.0,
+        "max_score": 10,
+        "standard_answer": "推导KL散度的完整过程。",
+        "deduction_reason": "答案不完整，缺少推导步骤。",
+        "comment": ""
+      }
+    ],
+    "overall_comment": ""
+  },
+  "approved": true,
+  "needs_retry": false,
+  "submission_source": "manual_local_files",
+  "teacher_last_modified": "2026-10-08T01:13:55"
+}
